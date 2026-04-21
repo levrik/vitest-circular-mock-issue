@@ -1,0 +1,17 @@
+{
+  "name": "@levrik/vitest-circular-mock-issue",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "test": "vitest --run --project=unit --coverage.enabled=false"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "vite": "8.0.8",
+    "vitest": "4.1.4"
+  }
+}
